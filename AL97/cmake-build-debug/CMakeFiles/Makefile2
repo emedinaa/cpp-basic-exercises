@@ -54,10 +54,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/emedinaa/Documents/UIGV/AL97
+CMAKE_SOURCE_DIR = /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/AL97.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug
 CMakeFiles/AL97.dir/all:
 	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/depend
 	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AL97"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AL97"
 .PHONY : CMakeFiles/AL97.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/AL97.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AL97.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AL97.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/AL97.dir/rule
 
 # Convenience name for target.

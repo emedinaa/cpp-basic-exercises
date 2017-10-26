@@ -1,3 +1,3 @@
-/Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles/AL97.dir
+/Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles/AL97.dir

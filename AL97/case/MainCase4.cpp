@@ -5,6 +5,43 @@
     4.- Elabore un pseudocódigo que permita ingresar un número entero (1 a 10), y muestre un mensaje indicando la vocal
     correspondiente, considerando que la vocal A=1.
 */
+
+/*
+    Variables a utilizar en el pseudocódigo
+    valor   Número ingresado
+    vocal   Representación en vocal
+
+    Inicio
+        //Definir variables
+        entero valor
+        cadena  vocal
+
+        Escribir("Ingrese un número de 1-10 : ")
+        Leer(valor)
+
+        En caso sea (valor) hacer
+            1:
+                vocal <- "A"
+
+            2:
+                vocal <- "E"
+
+            3:
+                vocal <- "I"
+
+            4:
+                vocal <- "O"
+
+            5:
+                vocal <- "U"
+
+        Sino
+            vocal <- " Valor incorrecto"
+        Fin_caso
+
+        Escribir(" Mensaje : ", vocal)
+    Fin
+ */
 #include <iostream>
 #include <string>
 using namespace std;

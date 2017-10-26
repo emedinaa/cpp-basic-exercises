@@ -9,6 +9,80 @@
     Almuerzo Corriente=4000; ejecutivo=5000; Especial=7000;
     Comida Corriente=3000; ejecutivo=4500; Especial=5500;
 */
+
+/*
+    Variables a utilizar en el pseudocódigo
+    valFactura   Valor de factura
+    comida       Comida
+    tipo         Tipo de comida
+    orden        Orden
+
+    Inicio
+        //Definir variables
+        real : valFactura
+        entero : comida,tipo
+        cadena : orden
+
+        Escribir("Tipo de plato , Corriente 1, Ejecutivo 2 , Especial 3 :")
+        Leer(tipo)
+
+        Escribir("Comida , Desayuno 1 , Almuerzo 2 , Comida 3 :  ")
+        Leer(comida)
+
+        sueldo <- salarioMin*nrosal
+
+        En caso sea (comida) hacer
+            1 :
+              orden <- "Desayuno "
+                En caso sea (tipo) hacer
+                    1 :
+                        valFactura<-3500
+                        orden<- orden + "Corriente"
+                    2 :
+                        valFactura<-4500
+                        orden<- orden + "Ejecutivo"
+                    3 :
+                        valFactura<-6000
+                        orden<- orden + "Especial"
+                  Sino
+                        Escribir (“Tipo de comida fuera del rango”)
+                  Fin_caso
+            2:
+                En caso sea (tipo) hacer
+                    1 :
+                        valFactura<-4000
+                        orden<- orden + "Corriente"
+                    2 :
+                        valFactura<-5000
+                        orden<- orden + "Ejecutivo"
+                    3 :
+                        valFactura<-7000
+                        orden<- orden + "Especial"
+                  Sino
+                        Escribir (“Tipo de comida fuera del rango”)
+                  Fin_caso
+            3:
+                En caso sea (tipo) hacer
+                    1 :
+                        valFactura<-3000
+                        orden<- orden + "Corriente"
+                    2 :
+                        valFactura<-4500
+                        orden<- orden + "Ejecutivo"
+                    3 :
+                        valFactura<-5500
+                        orden<- orden + "Especial"
+                  Sino
+                        Escribir (“Tipo de comida fuera del rango”)
+                  Fin_caso
+        Sino
+            Escribir (“Tipo de comida fuera del rango”)
+        Fin_caso
+
+        Escribir( "Orden : " , orden , " factura : ",valFactura )
+    Fin
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;

@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/emedinaa/Documents/UIGV/AL97
+CMAKE_SOURCE_DIR = /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AL97.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/AL97.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/AL97.dir/flags.make
 
-CMakeFiles/AL97.dir/case/MainCase4.cpp.o: CMakeFiles/AL97.dir/flags.make
-CMakeFiles/AL97.dir/case/MainCase4.cpp.o: ../case/MainCase4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AL97.dir/case/MainCase4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AL97.dir/case/MainCase4.cpp.o -c /Users/emedinaa/Documents/UIGV/AL97/case/MainCase4.cpp
+CMakeFiles/AL97.dir/case/MainCase5.cpp.o: CMakeFiles/AL97.dir/flags.make
+CMakeFiles/AL97.dir/case/MainCase5.cpp.o: ../case/MainCase5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AL97.dir/case/MainCase5.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AL97.dir/case/MainCase5.cpp.o -c /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/case/MainCase5.cpp
 
-CMakeFiles/AL97.dir/case/MainCase4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AL97.dir/case/MainCase4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emedinaa/Documents/UIGV/AL97/case/MainCase4.cpp > CMakeFiles/AL97.dir/case/MainCase4.cpp.i
+CMakeFiles/AL97.dir/case/MainCase5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AL97.dir/case/MainCase5.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/case/MainCase5.cpp > CMakeFiles/AL97.dir/case/MainCase5.cpp.i
 
-CMakeFiles/AL97.dir/case/MainCase4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AL97.dir/case/MainCase4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emedinaa/Documents/UIGV/AL97/case/MainCase4.cpp -o CMakeFiles/AL97.dir/case/MainCase4.cpp.s
+CMakeFiles/AL97.dir/case/MainCase5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AL97.dir/case/MainCase5.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/case/MainCase5.cpp -o CMakeFiles/AL97.dir/case/MainCase5.cpp.s
 
-CMakeFiles/AL97.dir/case/MainCase4.cpp.o.requires:
+CMakeFiles/AL97.dir/case/MainCase5.cpp.o.requires:
 
-.PHONY : CMakeFiles/AL97.dir/case/MainCase4.cpp.o.requires
+.PHONY : CMakeFiles/AL97.dir/case/MainCase5.cpp.o.requires
 
-CMakeFiles/AL97.dir/case/MainCase4.cpp.o.provides: CMakeFiles/AL97.dir/case/MainCase4.cpp.o.requires
-	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase4.cpp.o.provides.build
-.PHONY : CMakeFiles/AL97.dir/case/MainCase4.cpp.o.provides
+CMakeFiles/AL97.dir/case/MainCase5.cpp.o.provides: CMakeFiles/AL97.dir/case/MainCase5.cpp.o.requires
+	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase5.cpp.o.provides.build
+.PHONY : CMakeFiles/AL97.dir/case/MainCase5.cpp.o.provides
 
-CMakeFiles/AL97.dir/case/MainCase4.cpp.o.provides.build: CMakeFiles/AL97.dir/case/MainCase4.cpp.o
+CMakeFiles/AL97.dir/case/MainCase5.cpp.o.provides.build: CMakeFiles/AL97.dir/case/MainCase5.cpp.o
 
 
 # Object files for target AL97
 AL97_OBJECTS = \
-"CMakeFiles/AL97.dir/case/MainCase4.cpp.o"
+"CMakeFiles/AL97.dir/case/MainCase5.cpp.o"
 
 # External object files for target AL97
 AL97_EXTERNAL_OBJECTS =
 
-AL97: CMakeFiles/AL97.dir/case/MainCase4.cpp.o
+AL97: CMakeFiles/AL97.dir/case/MainCase5.cpp.o
 AL97: CMakeFiles/AL97.dir/build.make
 AL97: CMakeFiles/AL97.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AL97"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AL97"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AL97.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/AL97.dir/build: AL97
 
 .PHONY : CMakeFiles/AL97.dir/build
 
-CMakeFiles/AL97.dir/requires: CMakeFiles/AL97.dir/case/MainCase4.cpp.o.requires
+CMakeFiles/AL97.dir/requires: CMakeFiles/AL97.dir/case/MainCase5.cpp.o.requires
 
 .PHONY : CMakeFiles/AL97.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/AL97.dir/clean:
 .PHONY : CMakeFiles/AL97.dir/clean
 
 CMakeFiles/AL97.dir/depend:
-	cd /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/emedinaa/Documents/UIGV/AL97 /Users/emedinaa/Documents/UIGV/AL97 /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles/AL97.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97 /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97 /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles/AL97.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AL97.dir/depend
 

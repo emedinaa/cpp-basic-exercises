@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/emedinaa/Documents/UIGV/AL97
+CMAKE_SOURCE_DIR = /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/emedinaa/Documents/UIGV/AL97/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eduardomedina/Documents/emedinaa/uigv/Cpp/cpp-basic-exercises/AL97/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ AL97/fast:
 	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/build
 .PHONY : AL97/fast
 
-case/MainCase4.o: case/MainCase4.cpp.o
+case/MainCase5.o: case/MainCase5.cpp.o
 
-.PHONY : case/MainCase4.o
+.PHONY : case/MainCase5.o
 
 # target to build an object file
-case/MainCase4.cpp.o:
-	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase4.cpp.o
-.PHONY : case/MainCase4.cpp.o
+case/MainCase5.cpp.o:
+	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase5.cpp.o
+.PHONY : case/MainCase5.cpp.o
 
-case/MainCase4.i: case/MainCase4.cpp.i
+case/MainCase5.i: case/MainCase5.cpp.i
 
-.PHONY : case/MainCase4.i
+.PHONY : case/MainCase5.i
 
 # target to preprocess a source file
-case/MainCase4.cpp.i:
-	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase4.cpp.i
-.PHONY : case/MainCase4.cpp.i
+case/MainCase5.cpp.i:
+	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase5.cpp.i
+.PHONY : case/MainCase5.cpp.i
 
-case/MainCase4.s: case/MainCase4.cpp.s
+case/MainCase5.s: case/MainCase5.cpp.s
 
-.PHONY : case/MainCase4.s
+.PHONY : case/MainCase5.s
 
 # target to generate assembly for a file
-case/MainCase4.cpp.s:
-	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase4.cpp.s
-.PHONY : case/MainCase4.cpp.s
+case/MainCase5.cpp.s:
+	$(MAKE) -f CMakeFiles/AL97.dir/build.make CMakeFiles/AL97.dir/case/MainCase5.cpp.s
+.PHONY : case/MainCase5.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... AL97"
-	@echo "... case/MainCase4.o"
-	@echo "... case/MainCase4.i"
-	@echo "... case/MainCase4.s"
+	@echo "... case/MainCase5.o"
+	@echo "... case/MainCase5.i"
+	@echo "... case/MainCase5.s"
 .PHONY : help
 
 
