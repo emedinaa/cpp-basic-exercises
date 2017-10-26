@@ -1,0 +1,103 @@
+// Created by Eduardo José Medina Alfaro on 18/10/17.
+/*
+    5.- Elaborar un pseudocódigo que permita determinar el orden de tres números de mayor a menor.
+*/
+
+/*
+    Variables a utilizar en el pseudocódigo
+        nro1    Número 1
+        nro2    Número 2
+        nro3    Número 3
+        menor   Menor de los números
+        mayor   Mayor de los números
+        medio   Valor intermedio de los números
+
+    Inicio
+        //Definir variables
+        entero : nro1 , nro2, nro3, menor, mayor, medio
+
+        Escribir("Ingresar número 1 : ")
+        Leer(nro1)
+
+        Escribir("Ingresar número 2 : ")
+        Leer(nro2)
+
+        Escribir("Ingresar número 3 : ")
+        Leer(nro3)
+
+        menor <- nro1
+        Si(nro2 < menor) entonces
+            menor <- nro2
+        Sino
+            Si (nro3 < menor) entonces
+                menor <- nro3
+            Fin_si
+        Fin_si
+
+        mayor <- nro1
+        Si(nro2 > mayor) entonces
+            mayor <- nro2
+        Sino
+            Si (nro3 > mayor) entonces
+                mayor <- nro3
+            Fin_si
+        Fin_si
+
+        medio <- nro1
+        Si(nro2 > menor and nro2 < mayor) entonces
+            medio=nro2
+        Sino
+            Si(nro3 > menor and nro3 < mayor) entonces
+                medio=nro3
+            Fin_si
+        Fin_Si
+
+        Escribir("Ordenar números  mayor : ",mayor, " medio : ", medio," menor : ", menor)
+
+    Fin
+ */
+
+#include <iostream>
+int main() {
+    int nro1, nro2, nro3,menor,medio,mayor;
+
+    std::cout << "Ingresar número 1 : "; std::cin >> nro1;
+    std::cout << "Ingresar número 2 : "; std::cin >> nro2;
+    std::cout << "Ingresar número 3 : "; std::cin >> nro3;
+
+    menor = nro1;
+    if(nro2<=menor){
+        menor= nro2;
+        if(nro3 <=menor){
+            menor= nro3;
+        }
+    }else if(nro3<=menor){
+        menor= nro3;
+    }
+
+    mayor= nro1;
+    if(nro2>=mayor){
+        mayor= nro2;
+        if(nro3>=mayor){
+            mayor= nro3;
+        }
+    }else if(nro3>=mayor){
+        mayor= nro3;
+    }
+
+    if(nro1>=menor){
+        if(nro1<=mayor){
+            medio= nro1;
+        }
+    }else if(nro2>=menor){
+        if(nro2<=mayor){
+            medio= nro2;
+        }
+    }else {
+        medio= nro3;
+    }
+
+
+    std::cout << "Ordenar números " <<  " mayor : " << mayor << " medio : " << medio << " menor : " << menor << std::endl;
+    return 0;
+}
