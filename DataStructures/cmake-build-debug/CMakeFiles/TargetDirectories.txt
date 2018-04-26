@@ -1,0 +1,3 @@
+/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir
