@@ -1,7 +1,11 @@
 //
-// Created by Eduardo Medina on 25/04/18.
-// https://www.youtube.com/watch?v=AoepPzqwggU&index=101&list=PLWtYZ2ejMVJlUu1rEHLC0i_oibctkl0Vh
+// Created by Eduardo José Medina Alfaro on 4/26/18.
+//Eliminar elementos de una cola
+//1. Obtener el valor del nodo
+//2. Crear el nodo aux y asignarle el frente de la cola
+//3. Eliminar el nodo del frente de la cola
 //
+
 #include <iostream>
 using namespace std;
 
@@ -10,32 +14,43 @@ struct Nodo{
     Nodo *siguiente;
 };
 
-/**
- * insertar elementos en una cola
- * 1. crear espacio en memoria
- * 2. Asignar ese nuevo nodo al dato que queremos insertar
- * 3. Asigmar punteros frente y fin hacia el nuevo nodo
- */
-
 void insertarCola(Nodo *&, Nodo *&,int);
 
 bool colaVacia(Nodo *);
 
 void muestraCola(Nodo *);
 
+void suprimirCola(Nodo *&, Nodo *&, int &);
+
 int main(){
 
     Nodo *frente=NULL;
     Nodo *fin=NULL;
+    int dato=0;
 
     insertarCola(frente,fin,1);
     insertarCola(frente,fin,2);
     insertarCola(frente,fin,3);
     insertarCola(frente,fin,4);
 
+    cout<<"Mostrar cola "<<endl;
+
     muestraCola(frente);
+
+    cout<<"\nEliminar cola "<<endl;
+
+    while (frente!=NULL){
+        suprimirCola(frente,fin,dato);
+
+        if(frente!=NULL){
+            cout<<dato<<" , ";
+        }else{
+            cout<<dato<<" . ";
+        }
+    }
     return 0;
 }
+
 
 void insertarCola(Nodo *&frente, Nodo *&fin,int n){
 
@@ -73,7 +88,23 @@ void muestraCola(Nodo *frente )
     }
 }
 
+void suprimirCola(Nodo *&frente, Nodo *&fin, int &n){
+    n = frente->dato;
+    Nodo *aux=frente;
+
+    if (frente==fin){
+        frente=NULL;
+        fin=NULL;
+    } else{
+        frente= frente->siguiente;
+    }
+    delete aux;
+}
+
 //output
 /*
- * 1   2   3   4
+Mostrar cola
+   1   2   3   4
+Eliminar cola
+1 , 2 , 3 , 4 .
  */

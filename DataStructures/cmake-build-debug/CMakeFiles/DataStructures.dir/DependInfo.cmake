@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/exercises/exercise4.cpp" "/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o"
+  "/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/colas/sample2.cpp" "/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/colas/sample2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

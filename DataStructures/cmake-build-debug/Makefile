@@ -123,32 +123,32 @@ DataStructures/fast:
 	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
-exercises/exercise4.o: exercises/exercise4.cpp.o
+colas/sample2.o: colas/sample2.cpp.o
 
-.PHONY : exercises/exercise4.o
+.PHONY : colas/sample2.o
 
 # target to build an object file
-exercises/exercise4.cpp.o:
-	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o
-.PHONY : exercises/exercise4.cpp.o
+colas/sample2.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/colas/sample2.cpp.o
+.PHONY : colas/sample2.cpp.o
 
-exercises/exercise4.i: exercises/exercise4.cpp.i
+colas/sample2.i: colas/sample2.cpp.i
 
-.PHONY : exercises/exercise4.i
+.PHONY : colas/sample2.i
 
 # target to preprocess a source file
-exercises/exercise4.cpp.i:
-	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.i
-.PHONY : exercises/exercise4.cpp.i
+colas/sample2.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/colas/sample2.cpp.i
+.PHONY : colas/sample2.cpp.i
 
-exercises/exercise4.s: exercises/exercise4.cpp.s
+colas/sample2.s: colas/sample2.cpp.s
 
-.PHONY : exercises/exercise4.s
+.PHONY : colas/sample2.s
 
 # target to generate assembly for a file
-exercises/exercise4.cpp.s:
-	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.s
-.PHONY : exercises/exercise4.cpp.s
+colas/sample2.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/colas/sample2.cpp.s
+.PHONY : colas/sample2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructures"
-	@echo "... exercises/exercise4.o"
-	@echo "... exercises/exercise4.i"
-	@echo "... exercises/exercise4.s"
+	@echo "... colas/sample2.o"
+	@echo "... colas/sample2.i"
+	@echo "... colas/sample2.s"
 .PHONY : help
 
 

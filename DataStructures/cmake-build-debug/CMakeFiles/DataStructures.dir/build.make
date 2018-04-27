@@ -57,38 +57,38 @@ include CMakeFiles/DataStructures.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructures.dir/flags.make
 
-CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o: CMakeFiles/DataStructures.dir/flags.make
-CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o: ../exercises/exercise4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o -c /Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/exercises/exercise4.cpp
+CMakeFiles/DataStructures.dir/colas/sample2.cpp.o: CMakeFiles/DataStructures.dir/flags.make
+CMakeFiles/DataStructures.dir/colas/sample2.cpp.o: ../colas/sample2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructures.dir/colas/sample2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructures.dir/colas/sample2.cpp.o -c /Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/colas/sample2.cpp
 
-CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/exercises/exercise4.cpp > CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.i
+CMakeFiles/DataStructures.dir/colas/sample2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructures.dir/colas/sample2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/colas/sample2.cpp > CMakeFiles/DataStructures.dir/colas/sample2.cpp.i
 
-CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/exercises/exercise4.cpp -o CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.s
+CMakeFiles/DataStructures.dir/colas/sample2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructures.dir/colas/sample2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/colas/sample2.cpp -o CMakeFiles/DataStructures.dir/colas/sample2.cpp.s
 
-CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.requires:
+CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.requires:
 
-.PHONY : CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.requires
+.PHONY : CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.requires
 
-CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.provides: CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.requires
-	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.provides.build
-.PHONY : CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.provides
+CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.provides: CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DataStructures.dir/build.make CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.provides.build
+.PHONY : CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.provides
 
-CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.provides.build: CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o
+CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.provides.build: CMakeFiles/DataStructures.dir/colas/sample2.cpp.o
 
 
 # Object files for target DataStructures
 DataStructures_OBJECTS = \
-"CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o"
+"CMakeFiles/DataStructures.dir/colas/sample2.cpp.o"
 
 # External object files for target DataStructures
 DataStructures_EXTERNAL_OBJECTS =
 
-DataStructures: CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o
+DataStructures: CMakeFiles/DataStructures.dir/colas/sample2.cpp.o
 DataStructures: CMakeFiles/DataStructures.dir/build.make
 DataStructures: CMakeFiles/DataStructures.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/emedinaa/Documents/UIGV/2018/EstructuraDatos/repo/cpp-basic-exercises/DataStructures/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DataStructures"
@@ -99,7 +99,7 @@ CMakeFiles/DataStructures.dir/build: DataStructures
 
 .PHONY : CMakeFiles/DataStructures.dir/build
 
-CMakeFiles/DataStructures.dir/requires: CMakeFiles/DataStructures.dir/exercises/exercise4.cpp.o.requires
+CMakeFiles/DataStructures.dir/requires: CMakeFiles/DataStructures.dir/colas/sample2.cpp.o.requires
 
 .PHONY : CMakeFiles/DataStructures.dir/requires
 
